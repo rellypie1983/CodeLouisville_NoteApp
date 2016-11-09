@@ -1,0 +1,127 @@
+body{
+    background-image: url("http://manjr.com/wp-content/uploads/2015/10/jaws19.jpg");
+	background-attachment: scroll;
+	
+}
+header .header-title{
+    padding: 10px;
+    background: #4dff4d;
+    font-family: Impact;
+	color: red;
+    font-size: 25px;
+}
+
+.notes{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1px;
+}
+.note {
+    width: 200px;
+    margin: 2px;
+    height: 1px 1px 1px 1px;
+    float: left;
+    position: relative;
+    box-shadow: 0 8px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 8px;
+    padding: 7px;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-family: Palatino;
+    font-size: 14px;
+	opacity: 0.8;
+}
+
+.note:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.delete-note {
+    position: absolute;
+    top:5px;
+    right:5px;
+    display: none;
+    font-size: 30px;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+
+.note:hover .delete-note {
+    display: block;
+}
+
+
+.notes-editor {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 16px auto;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+	opacity: 0.6;
+}
+
+.notes-editor .notes-editor-input {
+    width: 100%;
+    resize: none;
+    margin: 5px;
+    font-size: 14px;
+	font-family: Palatino;
+	color: black;
+    border: none;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-weight: 800;
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.notes-editor .notes-editor-input:focus {
+    outline: 0;
+	
+}
+
+.notes-editor .notes-editor-button {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 100px;
+    background-color:#000066;
+    border-radius:14px;
+    border:3px solid darkgray;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:14px;
+    padding:5px 5px;
+    margin: 5px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+
+.notes-editor .notes-editor-button:hover {
+    background-color:#262626;
+}
+
+.notes-editor .notes-editor-button:active {
+    position:relative;
+    top:1px;
+}
+
+.notes-editor .notes-editor-button:focus {
+    outline: 0;
+}
