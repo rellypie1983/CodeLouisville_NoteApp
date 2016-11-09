@@ -4,11 +4,12 @@ body{
 	
 }
 header .header-title{
-    padding: 10px;
+    padding: 5px;
     background: #4dff4d;
     font-family: Impact;
 	color: red;
     font-size: 25px;
+
 }
 
 .notes{
@@ -74,7 +75,7 @@ header .header-title{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-	opacity: 0.6;
+	opacity: 0.7;
 }
 
 .notes-editor .notes-editor-input {
@@ -105,11 +106,11 @@ header .header-title{
     border-radius:14px;
     border:3px solid darkgray;
     cursor:pointer;
-    color:#ffffff;
+    color:white;
     font-size:14px;
-    padding:5px 5px;
+    padding:4px 4px;
     margin: 5px;
-    text-decoration:none;
+    text-decoration:underline;
     text-shadow:0px 1px 0px #2f6627;
 }
 
