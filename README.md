@@ -12,3 +12,5 @@ Getting started:
   
   
   --Although this was a very simple project only to demonstrate that I could use the MEAN stack and have a working knowledge of CSS, there are several elements I would have liked to refine and improve and will hopefully have the knowledge and ability soon.
+
+  --There are a few aesthetic issues that I could not resolve the way I envisioned, such as the opaqueness of the note editor and the notes themselves combined with a less opaque font within these boxes. 
