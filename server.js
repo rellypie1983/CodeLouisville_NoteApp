@@ -27,7 +27,7 @@ MongoClient.connect("mongodb://localhost:27017/notes-app", (err, database) => {
 
     // Start the application after the database connection is ready
     app.listen(8080, () => {
-        console.log("Get on over to 8080!");
+        console.log("Port 8080 is where it's at, ya'll!");
     });
 
 });
