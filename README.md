@@ -11,4 +11,4 @@ Getting started:
   5. access app running on port 8080
   
   
-  --Although this was a very simple project simply to demonstrate that I could use the MEAN stack and a working knowledge of CSS, there are several elements I would have liked to refine and improve and will hopefully have the knowledge and ability soon.
+  --Although this was a very simple project only to demonstrate that I could use the MEAN stack and have a working knowledge of CSS, there are several elements I would have liked to refine and improve and will hopefully have the knowledge and ability soon.
