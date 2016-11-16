@@ -35,7 +35,7 @@ header .header-title{
     word-wrap: break-word;
     font-family: Palatino;
     font-size: 24px;
-	opacity: 0.2;
+	opacity: 0.7;
 }
 
 .note:hover {
@@ -76,7 +76,7 @@ header .header-title{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-	opacity: 0.4;
+	opacity: 0.8;
 }
 
 .notes-editor .notes-editor-input {
@@ -90,7 +90,7 @@ header .header-title{
 	box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     font-weight: 800;
 	text-decoration: none;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .notes-editor .notes-editor-input:focus {
